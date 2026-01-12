@@ -1,0 +1,62 @@
+# Relatório do Projeto — Previsão de Estoque (SageMaker Canvas)
+
+## 1) Contexto
+Este projeto foi realizado no **Desafio de Projeto da DIO** com o objetivo de aplicar conceitos práticos de **Machine Learning** para **previsão de estoque** usando o **AWS SageMaker Canvas**.
+
+## 2) Objetivo
+Prever **[estoque/demanda/vendas]** para apoiar decisões como:
+- reposição e planejamento
+- redução de ruptura e excesso
+- melhoria da eficiência operacional
+
+## 3) Dataset (descrição)
+> **Importante:** não inclua dados sensíveis.
+
+- Fonte: **[público / fornecido pela DIO / outro]**
+- Período: **[ex.: 2022-01 a 2024-12]**
+- Granularidade: **[diária / semanal / mensal]**
+- Variável alvo (target): **[ex.: estoque]**
+- Principais colunas (features):
+  - **[coluna_1]** — descrição
+  - **[coluna_2]** — descrição
+  - **[coluna_3]** — descrição
+
+## 4) Preparação e validação dos dados
+- Tratamento de valores ausentes: **[como foi tratado]**
+- Outliers/picos: **[observações]**
+- Consistência temporal (datas): **[ok / ajustes]**
+
+## 5) Treinamento do modelo no Canvas
+- Tipo de tarefa: **Forecasting (previsão temporal)**
+- Configuração do Canvas: **[AutoML / configurações relevantes]**
+- Observações do treinamento: **[tempo, limitações, etc.]**
+
+## 6) Avaliação
+- Métricas exibidas no Canvas: **[MAE / RMSE / MAPE / outras]**
+- Resultado (resumo):
+  - Métrica 1: **[valor]**
+  - Métrica 2: **[valor]**
+
+### Interpretação
+- O modelo capturou tendência? **[sim/não]**
+- Identificou sazonalidade? **[sim/não]**
+- Onde o erro foi maior? **[picos/vales/períodos]**
+
+## 7) Previsões e insights
+- Horizonte de previsão: **[ex.: 30 dias / 3 meses]**
+- Principais insights:
+  1. **[insight 1]**
+  2. **[insight 2]**
+  3. **[insight 3]**
+
+## 8) Limitações e próximos passos
+- Limitações atuais:
+  - **[limitação 1]**
+  - **[limitação 2]**
+- Próximas melhorias:
+  - adicionar variáveis exógenas **[ex.: preço, promoções]**
+  - aumentar histórico
+  - validar com backtesting mais rigoroso
+
+## 9) Conclusão
+Resumo do que foi construído e o valor prático do modelo para tomada de decisão baseada em dados.

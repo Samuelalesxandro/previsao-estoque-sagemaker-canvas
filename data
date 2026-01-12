@@ -1,0 +1,9 @@
+{
+  "dataset": "previsao_estoque",
+  "target": "<preencher>",
+  "time_column": "<preencher>",
+  "columns": [
+    {"name": "data", "type": "date", "description": "Data do registro"},
+    {"name": "estoque", "type": "numeric", "description": "Quantidade em estoque (target)"}
+  ]
+}

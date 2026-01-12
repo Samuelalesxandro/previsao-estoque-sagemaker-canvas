@@ -1,0 +1,21 @@
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Dados grandes / sensíveis (não versionar)
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.zip
+
+# Outputs grandes (se necessário)
+outputs/*.csv
+# (descomente se quiser versionar previsoes.csv)
+# !outputs/previsoes.csv

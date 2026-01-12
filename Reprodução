@@ -1,0 +1,22 @@
+# Como Reproduzir no AWS SageMaker Canvas (Checklist)
+
+## Pré-requisitos
+- Acesso ao **AWS SageMaker Canvas**
+- Dataset em CSV (preferencialmente) sem dados sensíveis
+
+## Passo a passo (10–15 min)
+1. **Criar projeto** no SageMaker Canvas
+2. **Importar dataset** (upload ou fonte disponível)
+3. **Revisar colunas** (tipos, datas, target)
+4. Definir **variável alvo (target)** para previsão
+5. **Treinar modelo** (Build / Train)
+6. **Avaliar métricas** (MAE/RMSE/MAPE, quando disponível)
+7. **Gerar previsões** para o horizonte desejado
+8. **Exportar resultados** (se possível) para `outputs/previsoes.csv`
+9. Preencher `docs/relatorio.md` com decisões, métricas e insights
+
+## O que documentar
+- Target e período do dataset
+- Métricas e interpretação
+- Prints (se permitido) ou evidências alternativas (CSV exportado)
+- Limitações e próximos passos

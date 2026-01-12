@@ -1,0 +1,19 @@
+# Dicionário de Dados (Template)
+
+> Preencha com as colunas do seu dataset. Evite incluir dados sensíveis.
+
+| Coluna | Tipo | Descrição | Exemplo | Observações |
+|---|---|---|---|---|
+| data | data | Data do registro | 2024-01-31 | formato ISO recomendado |
+| estoque | numérico | Quantidade em estoque (target) | 120 | variável alvo |
+| produto_id | texto | Identificador do produto | P001 | opcional |
+
+## Variável alvo (Target)
+- **Nome:** `[...]`
+- **Tipo:** **[numérico]**
+- **Descrição:** **[...]**
+
+## Observações de qualidade
+- Valores ausentes: **[sim/não]**
+- Outliers: **[sim/não]**
+- Consistência temporal: **[ok/ajustes]**

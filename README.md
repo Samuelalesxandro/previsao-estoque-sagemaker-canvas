@@ -1,25 +1,30 @@
-# p
+
 # Previsão de Estoque com Machine Learning (AWS SageMaker Canvas)
 
-Projeto desenvolvido no **Desafio de Projeto da DIO** para criar um modelo de **previsão de estoque** usando o **AWS SageMaker Canvas**.
+Projeto desenvolvido como **Desafio de Projeto da DIO** utilizando o **AWS SageMaker Canvas** para criar um modelo de **previsão de estoque** (forecasting).
+
+> Observação: por restrições de acesso no ambiente de trabalho, este repositório foca na **documentação completa do processo**. Quando aplicável, serão adicionadas evidências (prints/outputs) sem dados sensíveis.
+
+---
 
 ## 🎯 Objetivo
-Construir e avaliar um modelo de ML no Canvas para gerar previsões de estoque e documentar o processo no GitHub.
+Construir um modelo de Machine Learning no SageMaker Canvas para **prever estoque/demanda**, documentando todas as etapas em um repositório GitHub.
 
-## 🧰 Ferramentas e Skills
+---
+
+## 🧰 Ferramentas e Tecnologias
 - AWS SageMaker Canvas
-- Machine Learning (forecasting)
-- Dados: Excel/SQL (conceitos), organização de dataset
+- Machine Learning (Forecasting)
 - Git/GitHub (versionamento e documentação)
 
-## 🗂️ Etapas do Projeto
-1. Seleção/Criação do dataset
-2. Treinamento do modelo no SageMaker Canvas
-3. Análise do modelo (métricas e validação)
-4. Geração de previsões e insights
+---
 
-## 📸 Evidências (prints)
-As evidências do processo (dataset, treinamento, métricas e previsões) estão na pasta `/images`.
+## 🗂️ Etapas do Projeto (Passo a passo)
+1. **Selecionar / Criar Dataset**
+   - Definição das colunas relevantes e variável alvo
+   - Verificação de consistência (valores ausentes, tipos, datas)
 
-## ✅ Conclusão
-O projeto reforçou a aplicação prática de Machine Learning para previsão e a importância de documentar resultados e decisões durante o desenvolvimento.
+2. **Construir e Treinar o Modelo no Canvas**
+   - Configuração do projeto no SageMaker Canvas
+   - Execução do treinamento automático (AutoML)
+
